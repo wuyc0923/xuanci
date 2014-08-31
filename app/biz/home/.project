@@ -1,0 +1,15 @@
+<projectDescription>
+  <name>biz-home</name>
+  <comment>yuci.wyc java code</comment>
+  <projects>
+    <project>common-dal</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

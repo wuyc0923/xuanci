@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <parent>
+    <artifactId>xuanci-parent</artifactId>
+    <groupId>com.code.xuanci</groupId>
+    <version>1.0</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.code.xuanci</groupId>
+  <artifactId>xuanci-app</artifactId>
+  <version>1.0</version>
+
+  <name>code xuanci</name>
+  <description>yuci.wyc  java code </description>
+  <url></url>
+
+  <packaging>pom</packaging>
+
+<modules>
+<module>biz</module>
+<module>common</module>
+<module>web</module>
+<module>test</module>
+</modules>
+</project>
