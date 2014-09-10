@@ -24,7 +24,6 @@ public class CityDaoImpl extends SqlMapClientDaoSupport implements CityDao {
      * (non-Javadoc)
      * @see com.code.xuanci.mvc.dao.CityDao#getCityById(java.lang.Integer)
      */
-    @Override
     public City getCityById(Integer id) {
         return (City) this.getSqlMapClientTemplate().queryForObject("City.getById", id);
     }
